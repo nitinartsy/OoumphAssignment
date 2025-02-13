@@ -1,0 +1,26 @@
+.supreme_container {
+    display: flex;
+    gap: 40px;
+}
+
+.sidebar {
+    
+    width: 246px;
+}
+
+.feed {
+    /* max-width: 600px; */
+    margin: 30px auto;
+    display: flex;
+    gap: 50px;
+}
+
+
+@media (max-width: 620px) { 
+    .supreme_container { 
+        gap: 0px;
+    }
+    .sidebar {
+        width: fit-content ;
+    }
+}
